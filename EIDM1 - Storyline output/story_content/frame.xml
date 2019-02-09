@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10111111111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001111111" font="Asap" controllayout="npnxnanbsnfns00001111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxabnsnfns00001111111" font="Asap" controllayout="pxabnsnfns00001111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="npxnabnsnfns00001111111" font="Asap" controllayout="npxnabnsnfns00001111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="npnxnanbnsnfns00001111111" font="Asap" controllayout="npnxnanbnsnfns00001111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxabnsnfns00001111110" font="Asap" controllayout="pxabnsnfns00001111110" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="npxnanbnsnfns10111111111" font="Asap" controllayout="npxnanbnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxnanbnsnfns10111111111" font="Asap" controllayout="pxnanbnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxnanbnsnfns00001111111" font="Asap" controllayout="pxnanbnsnfns00001111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pnxnanbnsnfns00001111111" font="Asap" controllayout="pnxnanbnsnfns00001111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="EIDM1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="totalelapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="true" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001111110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns00001111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnanbnsnfns10111111111">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F4F4F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x103E68" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2CBF0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x185E9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+                <color rgb="0x185E9C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+                <color rgb="0x207DD0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x185E9C" alpha="100" stop="0" />
+                <color rgb="0x185E9C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+                <color rgb="0x185E9C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x185E9C" alpha="100" stop="0" />
+                <color rgb="0x185E9C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="0" stop="0" />
+                <color rgb="0xB2B2B2" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E82D5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x283F9A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E82D5" alpha="100" stop="0" />
+                <color rgb="0x185E9C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x185E9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F4F4F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+                <color rgb="0x207DD0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E82D5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x185E9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x103E68" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x646464" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x103E68" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x185E9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD0E5F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD0E5F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD0E5F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x207DD0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x103E68" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0x185E9C" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnanbnsnfns10111111111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Asap">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Articulate">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
+        <file bold="true" italic="true" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6ptu3ajCaNL" displaytext="Welcome" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ptu3ajCaNL.5b5ogpfUhY5" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6ptu3ajCaNL.60hdMfCvZdG" displaytext="Additional Information" expand="false" type="slide" />
+            <slidelink slideid="_player.6ptu3ajCaNL.63aRs46RL4s" displaytext="Objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5qMQmTfxXFL" displaytext="We Have a Problem in Medicine" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5qMQmTfxXFL.637ASpXdPda" displaytext="The Need for Evidence-Informed Decision Making" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.5lmGOFBYC0e" displaytext="Why Is This So?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.61MKxCNyxHK" displaytext="Monitor yourself" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.6f3izsLyJYR" displaytext="Keeping It Real" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.6H3nDLEP9XN" displaytext="Test Your Knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.6CcEkAE9tjg" displaytext="Test Your Knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.6ggvKKUSxgg" displaytext="Evidence and Decision-Making" expand="false" type="slide" />
+            <slidelink slideid="_player.5qMQmTfxXFL.6cgF8ZJD8rd" displaytext="Thinking vs knowing in medicine: &#xA;Wrong 40% of the time" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6LaUedjoJa1" displaytext="The Whats and Whys of Evidence-Informed Decision-Making" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6LaUedjoJa1.6k0S3C3feZr" displaytext="What Do You Think?" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.6q5o2b9VRls" displaytext="What is &quot;Evidence-Informed decision making&quot;?" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.64upjzzIhlr" displaytext="Not all information is created equal" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.6NPjt2Sl04i" displaytext="The Hierarchy of Evidence" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.5fHXSoPG1Rk" displaytext="Test Your Understanding" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.5kEmGB8OPdi" displaytext="Truth As a Probability" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.5cnV2eLfumF" displaytext="Viva La Evidence!" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.5zaQRxIt0b6" displaytext="Think about it" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.5xiA2Bwupii" displaytext="The Need for Better Evidence" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaUedjoJa1.5uLtz1UlW9x" displaytext="Not All Information in Medicine is Relevant" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6kLMWDfnZxr" displaytext="Contrasting DOE and POE" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6kLMWDfnZxr.6nHQuUEhqwD" displaytext="Contrasting DOE and POE" expand="false" type="slide" />
+            <slidelink slideid="_player.6kLMWDfnZxr.64T0iACyJvO" displaytext="DOE vs POE: Diabetes" expand="false" type="slide" />
+            <slidelink slideid="_player.6kLMWDfnZxr.6rV9wsmiVVJ" displaytext="DOE vs. POE: Antioxidants" expand="false" type="slide" />
+            <slidelink slideid="_player.6kLMWDfnZxr.6l5jvciy496" displaytext="DOE vs. POE: Varenicline " expand="false" type="slide" />
+            <slidelink slideid="_player.6kLMWDfnZxr.62tG3ypMGLL" displaytext="DOE vs. POE: Arrhythmias " expand="false" type="slide" />
+            <slidelink slideid="_player.6kLMWDfnZxr.6lVm1xcjigF" displaytext="Test Your Understanding" expand="false" type="slide" />
+            <slidelink slideid="_player.6kLMWDfnZxr.6JDjBk2cK7Y" displaytext="Test Your Understanding" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.66Xc71oBttM" displaytext="Wrap-Up" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.66Xc71oBttM.5VFTnkeKkOt" displaytext="Live Reflections: Dave and Allen Unplugged" expand="false" type="slide" />
+            <slidelink slideid="_player.66Xc71oBttM.5VzVn5JtwOP" displaytext="Wrap-up" expand="false" type="slide" />
+            <slidelink slideid="_player.66Xc71oBttM.6RrpXJN0rB5" displaytext="Consolidate your learning" expand="false" type="slide" />
+            <slidelink slideid="_player.66Xc71oBttM.6qd0r3mXmK8" displaytext="Course completion" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6ptu3ajCaNL.5b5ogpfUhY5" slidebank="false" type="slide">welcome! </slidetext>
+      <slidetext slideid="6ptu3ajCaNL.60hdMfCvZdG" slidebank="false" type="slide">additional information throughout these modules, keep an eye out for the tools indicated in red.  clicking on the ‘i’ at the base of each arrow will provide more information. icons menu, notes, glossary resources search navigation view/download slide(s) view video view/download journal article as pdf view website progress meter </slidetext>
+      <slidetext slideid="6ptu3ajCaNL.63aRs46RL4s" slidebank="false" type="slide">objectives estimated completion time: 30 minutes 1.	explain what evidence-informed decision-making is... and what it isn't 2.	describe the hierarchy of evidence upon which evidence-informed decision-making is based 3.	contrast disease-oriented and patient-oriented evidence </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.637ASpXdPda" slidebank="false" type="slide">the need for evidence-informed decision making </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.5lmGOFBYC0e" slidebank="false" type="slide">why is this so? according to this recent report, wikipedia is the top source used by physicians to obtain information about medicine! maybe the lack of connection between clinical evidence and clinical practice is a problem of not just evidence, but information management? doctors’ #1 source for healthcare information: wikipedia </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.61MKxCNyxHK" slidebank="false" type="slide">analyze your own practice keep a list for one week of all the questions you have related to health care and where you look for the answers (a "notes" app on your phone is good for that). for each one, keep track of how many sources you searched before you found an answer. what kind of questions do you have, and where do you look for answers? </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.6f3izsLyJYR" slidebank="false" type="slide">keeping it real </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.6H3nDLEP9XN" slidebank="false" type="slide">throughout this and every module there will be self-assessment questions designed to help you think about or apply the ideas covered in the course. sometimes the questions will ask you for your thoughts before presenting the material to give you time to examine your own thinking before we share ours. none of these questions are graded. test your knowledge </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.6CcEkAE9tjg" slidebank="false" type="slide">according to traditional stories, how many antelopes did noah take into the ark? 1 1 1 1 1 1 2 2 2 2 2 2 5 5 5 5 5 5 7 7 7 7 7 7 14 14 14 14 14 14 </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.6ggvKKUSxgg" slidebank="false" type="slide">evidence and decision-making </slidetext>
+      <slidetext slideid="5qMQmTfxXFL.6cgF8ZJD8rd" slidebank="false" type="slide">over the years 2001-2010, 2,044 research studies were published in the new england journal of medicine. of these, 363 studies tested an existing medical practice: thinking vs knowing in medicine:  wrong 40% of the time aprotinin during cardiac surgery increases mortality (4 studies) tympanostomy tubes in children do not affect outcomes (3 studies) tight blood glucose control worsens outcomes (2 studies) treatment of stable coronary artery disease with stenting is not beneficial (3 studies) a decade of reversal: an analysis of 146 contradicted medical practices a decade of reversal: an analysis of 146 contradicted medical practices </slidetext>
+      <slidetext slideid="6LaUedjoJa1.6k0S3C3feZr" slidebank="false" type="slide">evidence-informed decision making is an approach to the care of patients that: is based on the careful documentation of research findings to support major clinical decisions  is based on the careful documentation of research findings to support major clinical decisions  is based on the careful documentation of research findings to support major clinical decisions  is based on the careful documentation of research findings to support major clinical decisions  is based on the careful documentation of research findings to support major clinical decisions  is based on the careful documentation of research findings to support major clinical decisions  acknowledges that there is a hierarchy of evidence, with some research results being more likely to be valid than others  acknowledges that there is a hierarchy of evidence, with some research results being more likely to be valid than others  acknowledges that there is a hierarchy of evidence, with some research results being more likely to be valid than others  acknowledges that there is a hierarchy of evidence, with some research results being more likely to be valid than others  acknowledges that there is a hierarchy of evidence, with some research results being more likely to be valid than others  acknowledges that there is a hierarchy of evidence, with some research results being more likely to be valid than others  is time consuming and often difficult is time consuming and often difficult is time consuming and often difficult is time consuming and often difficult is time consuming and often difficult is time consuming and often difficult values research findings over clinical experience values research findings over clinical experience values research findings over clinical experience values research findings over clinical experience values research findings over clinical experience values research findings over clinical experience </slidetext>
+      <slidetext slideid="6LaUedjoJa1.6q5o2b9VRls" slidebank="false" type="slide">what is "evidence-informed decision making"? evidence-informed decision making (eidm) is an approach to medical care that involves the use of the best available information when making decisions about the care of patients.  of course. why wouldn’t we do this? medicine has always used evidence to make decisions. the problem is, however, that there is a hierarchy of evidence. some information we have is more likely to represent the truth. eidm is a realization that this hierarchy exists. </slidetext>
+      <slidetext slideid="6LaUedjoJa1.64upjzzIhlr" slidebank="false" type="slide">an acknowledgment that there is a hierarchy of evidence and that conclusions related to evidence from controlled experiments are accorded greater credibility than conclusions grounded in other sorts of evidence. -- brian hurwitz “ in other words, not all information in medicine is created equal. in this course we will spend most of our time determining what is the currently available highest quality evidence and whether it has issues that threaten its validity. “ how does evidence based guidance influence determinations of medical negligence? not all information is created equal </slidetext>
+      <slidetext slideid="6LaUedjoJa1.6NPjt2Sl04i" slidebank="false" type="slide">so, the idea behind evidence-based medicine is that there is a hierarchy of evidence, with some types of evidence being more likely to represent the truth than others are. the hierarchy of evidence hierarchy of evidence (from wikipedia; don't judge us) </slidetext>
+      <slidetext slideid="6LaUedjoJa1.5fHXSoPG1Rk" slidebank="false" type="slide">controlled trial case-controlled trial expert consensus  case series  pathophysiologic reasoning high low validity put the following descriptions of study designs in order from lowest to highest validity  </slidetext>
+      <slidetext slideid="6LaUedjoJa1.5kEmGB8OPdi" slidebank="false" type="slide">truth as a probability </slidetext>
+      <slidetext slideid="6LaUedjoJa1.5cnV2eLfumF" slidebank="false" type="slide">viva la evidence the main point is that not all evidence is ready for clinical application. the trick is to distinguish “must-know” from “nice-to-know” information and also to identify information that might not be valid. our colleague, james mccormack, pharmd, of the therapeutics education collaboration of the university of british columbia, explains the need to understand the concepts of eidm in this entertaining video: </slidetext>
+      <slidetext slideid="6LaUedjoJa1.5zaQRxIt0b6" slidebank="false" type="slide">the patient is a 34-year-old woman with symptoms of mild depression. as her clinician, you consider pharmacologic treatment. would you rather prescribe a drug that: has been studied in 5 randomized trials with 817 patients taking it for 8 weeks has been studied in 5 randomized trials with 817 patients taking it for 8 weeks has been studied in 5 randomized trials with 817 patients taking it for 8 weeks has been studied in 5 randomized trials with 817 patients taking it for 8 weeks has been studied in 5 randomized trials with 817 patients taking it for 8 weeks has been studied in 5 randomized trials with 817 patients taking it for 8 weeks since release, has been taken by 40 million patients, though outcomes haven't been tracked since release, has been taken by 40 million patients, though outcomes haven't been tracked since release, has been taken by 40 million patients, though outcomes haven't been tracked since release, has been taken by 40 million patients, though outcomes haven't been tracked since release, has been taken by 40 million patients, though outcomes haven't been tracked since release, has been taken by 40 million patients, though outcomes haven't been tracked has almost exclusively been studied in men with more severe depression than this woman has almost exclusively been studied in men with more severe depression than this woman has almost exclusively been studied in men with more severe depression than this woman has almost exclusively been studied in men with more severe depression than this woman has almost exclusively been studied in men with more severe depression than this woman has almost exclusively been studied in men with more severe depression than this woman among other mechanisms, it blocks the effect of serotonin on the 5-ht receptor among other mechanisms, it blocks the effect of serotonin on the 5-ht receptor among other mechanisms, it blocks the effect of serotonin on the 5-ht receptor among other mechanisms, it blocks the effect of serotonin on the 5-ht receptor among other mechanisms, it blocks the effect of serotonin on the 5-ht receptor among other mechanisms, it blocks the effect of serotonin on the 5-ht receptor has demonstrated effectiveness in the treatment of mild depression. has demonstrated effectiveness in the treatment of mild depression. has demonstrated effectiveness in the treatment of mild depression. has demonstrated effectiveness in the treatment of mild depression. has demonstrated effectiveness in the treatment of mild depression. has demonstrated effectiveness in the treatment of mild depression. </slidetext>
+      <slidetext slideid="6LaUedjoJa1.5xiA2Bwupii" slidebank="false" type="slide">the need for better evidence </slidetext>
+      <slidetext slideid="6LaUedjoJa1.5uLtz1UlW9x" slidebank="false" type="slide">not all information in medicine is relevant </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.6nHQuUEhqwD" slidebank="false" type="slide">contrasting doe and poe patient-oriented evidence (poe) vs disease-oriented evidence (doe) the following screens give examples of how disease-oriented evidence does not align with patient-oriented evidence. click the boxes to reveal information about each. </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.64T0iACyJvO" slidebank="false" type="slide">doe vs poe: diabetes patient-oriented evidence (poe) vs disease-oriented evidence (doe) </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.6rV9wsmiVVJ" slidebank="false" type="slide">doe vs. poe: antioxidants patient-oriented evidence (poe) vs disease-oriented evidence (doe) </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.6l5jvciy496" slidebank="false" type="slide">doe vs. poe: varenicline  patient-oriented evidence (poe) vs disease-oriented evidence (doe) </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.62tG3ypMGLL" slidebank="false" type="slide">doe vs. poe: arrhythmias  patient-oriented evidence (poe) vs disease-oriented evidence (doe) </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.6lVm1xcjigF" slidebank="false" type="slide">which of the following research results best represents patient-oriented evidence? drug x lowers diastolic blood pressure to normal  drug x lowers diastolic blood pressure to normal  drug x lowers diastolic blood pressure to normal  drug x lowers diastolic blood pressure to normal  drug x lowers diastolic blood pressure to normal  drug x lowers diastolic blood pressure to normal  arthroscopic knee surgery improves day-to-day functioning in 70% of patients  arthroscopic knee surgery improves day-to-day functioning in 70% of patients  arthroscopic knee surgery improves day-to-day functioning in 70% of patients  arthroscopic knee surgery improves day-to-day functioning in 70% of patients  arthroscopic knee surgery improves day-to-day functioning in 70% of patients  arthroscopic knee surgery improves day-to-day functioning in 70% of patients  calcium supplementation decreases the likelihood of developing osteoporosis  calcium supplementation decreases the likelihood of developing osteoporosis  calcium supplementation decreases the likelihood of developing osteoporosis  calcium supplementation decreases the likelihood of developing osteoporosis  calcium supplementation decreases the likelihood of developing osteoporosis  calcium supplementation decreases the likelihood of developing osteoporosis  an education program improves 7th graders' scores on decision-making skills and beliefs that drug use is socially inappropriate an education program improves 7th graders' scores on decision-making skills and beliefs that drug use is socially inappropriate an education program improves 7th graders' scores on decision-making skills and beliefs that drug use is socially inappropriate an education program improves 7th graders' scores on decision-making skills and beliefs that drug use is socially inappropriate an education program improves 7th graders' scores on decision-making skills and beliefs that drug use is socially inappropriate an education program improves 7th graders' scores on decision-making skills and beliefs that drug use is socially inappropriate </slidetext>
+      <slidetext slideid="6kLMWDfnZxr.6JDjBk2cK7Y" slidebank="false" type="slide">which of the following is a disease-oriented outcome? vitamin e does not reduce the risk of fatal breast cancer in women aged 45 years or older  vitamin e does not reduce the risk of fatal breast cancer in women aged 45 years or older  vitamin e does not reduce the risk of fatal breast cancer in women aged 45 years or older  vitamin e does not reduce the risk of fatal breast cancer in women aged 45 years or older  vitamin e does not reduce the risk of fatal breast cancer in women aged 45 years or older  vitamin e does not reduce the risk of fatal breast cancer in women aged 45 years or older  vitamin e increases the risk of symptomatic heart failure vitamin e increases the risk of symptomatic heart failure vitamin e increases the risk of symptomatic heart failure vitamin e increases the risk of symptomatic heart failure vitamin e increases the risk of symptomatic heart failure vitamin e increases the risk of symptomatic heart failure vitamin e lowers hemoglobin a1c levels in obese adolescents  vitamin e lowers hemoglobin a1c levels in obese adolescents  vitamin e lowers hemoglobin a1c levels in obese adolescents  vitamin e lowers hemoglobin a1c levels in obese adolescents  vitamin e lowers hemoglobin a1c levels in obese adolescents  vitamin e lowers hemoglobin a1c levels in obese adolescents  vitamin e worsens the severity of upper respiratory illness symptoms in the elderly vitamin e worsens the severity of upper respiratory illness symptoms in the elderly vitamin e worsens the severity of upper respiratory illness symptoms in the elderly vitamin e worsens the severity of upper respiratory illness symptoms in the elderly vitamin e worsens the severity of upper respiratory illness symptoms in the elderly vitamin e worsens the severity of upper respiratory illness symptoms in the elderly </slidetext>
+      <slidetext slideid="66Xc71oBttM.5VFTnkeKkOt" slidebank="false" type="slide">live reflections: dave and allen unplugged easy ways to resist change in medicine helmet therapy for head deformation </slidetext>
+      <slidetext slideid="66Xc71oBttM.5VzVn5JtwOP" slidebank="false" type="slide">wrap-up </slidetext>
+      <slidetext slideid="66Xc71oBttM.6RrpXJN0rB5" slidebank="false" type="slide">r e f l e c t i o n please take the next 15 minutes to reflect on the information you just learned.  please write about the main key lessons you learned as you were completing the module.  please reflect on and write about at least two key lessons.  please be as specific as possible.  this exercise will not be read or graded by anyone but is for your own benefit. type your text here </slidetext>
+      <slidetext slideid="66Xc71oBttM.6qd0r3mXmK8" slidebank="false" type="slide">thank you for completing this course.   you may now close the window using the         in the top right corner to complete this course. </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Asap' style='font-size: 11px;' size='11' color='#FFFFFF'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="http://www.nbcnews.com/health/health-care/were-last-again-u-s-health-care-ranks-poorly-n132081" image="story_content/url.png" title="World Health Organization Ranking" />
+      <resource url="http://www.nationalacademies.org/dbasse/cpop" image="story_content/url.png" title="National Bureau of Economic Research: Physician Beliefs and Patient Preferences: A New Look at Regional Variation in Health Care Spending" />
+      <resource url="http://www.nap.edu/openbook.php?record_id=13497" image="story_content/url.png" title="U.S. Health in International Perspective. Shorter Lives, Poorer Health. National Research Council and Institute of Medicine of the National Academies. " />
+      <resource url="http://www.commonwealthfund.org/~/media/files/publications/fund-report/2014/jun/1755_davis_mirror_mirror_2014.pdf" image="story_content/url.png" title="Davis K, Stremikis K, Squires D, Shoen C. Mirror, mirror on the wall: how the performance of the U.S. health care system compares internationally. Commonwealth Fund June 2014. " />
+      <resource url="http://www.theatlantic.com/health/archive/2014/03/doctors-1-source-for-healthcare-information-wikipedia/284206/" image="story_content/url.png" title="Beck J. Doctors’ #1 source for healthcare information: Wikepidia. The Atlantic. " />
+      <resource url="http://www.kingjamesbibleonline.org/Genesis-Chapter-7/" image="story_content/url.png" title="Genesis, Chapter 7 (King James Version). " />
+      <resource url="http://www.bmj.com/content/312/7023/71" image="story_content/url.png" title="Sackett’s Definition: Evidence based medicine: what it is and what it isn't. BMJ 1996; 312." />
+      <resource url="http://www.bmj.com/content/329/7473/1024" image="story_content/url.png" title="Hurwitz’s definition: How does evidence based guidance influence determinations of medical negligence? BMJ 2004; 329" />
+      <resource url="http://en.wikipedia.org/wiki/Hierarchy_of_evidence" image="story_content/url.png" title="Wikipedia. Hierarchy of evidence. " />
+      <resource url="https://www.youtube.com/watch?feature=player_embedded&amp;v=QUW0Q8tXVUc" image="story_content/url.png" title="Viva La Evidence" />
+      <resource url="http://clinicalinformationsciences.com/wp-content/uploads/2017/05/Easy-way-to-resist-changes-in-medicine.pdf" image="story_content/url.png" title="Easy ways to resist change in medicine" />
+      <resource url="http://clinicalinformationsciences.com/wp-content/uploads/2017/05/Helmet-therapy-for-skull-deformation.pdf" image="story_content/url.png" title="Helmet therapy for head deformation" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6ptu3ajCaNL.5b5ogpfUhY5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Hi, I’m Allen Shaughnessy from Tufts University in Boston. And I’m Dave Slawson from the University of Virginia in Charlottesville.  We’re excited to bring you this online course of our information matching techniques that we’ve taught throughout the world.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;We’ve taught this course in England, Wales, Saudi Arabia,  Israel, Spain, Hong Kong, and in Denmark, along with most of the rest of the United States.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;As we all know, the future of healthcare relies on the efficient use of resources.  In particular, we need to make sure we find techniques to avoid overuse and misuse of unnecessary medical services.  This course, and our goal, is to help you make the best possible use of information, and provide the best possible care to each individual patient.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;The course is self-paced and interactive.  We hope you enjoy it, both spending the time with us, as well as spending the time with the course.  And we also hope you pick up some useful tips that you can use in your day-to-day practice.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5qMQmTfxXFL.637ASpXdPda" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Our healthcare system needs work. We spend at least twice as much as any other country, per capita, on health care. As characterized by a recent book, it is  “terribly complex, blatantly unjust, outrageously expensive, grossly inefficient, and error prone.” According to recent data from the World Health Organization, the United States continues to rank &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;last&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt; among the 11 richest nations in terms of healthcare outcomes, as it has done since 2004. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Some of the problem is our health care system, or, more appropriately, our lack of a health care system. The government, health insurance companies, managed care organizations, grass roots groups, and employers are all working to influence health care outcomes. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;However, some of the problem involves the large lag time between when new, good information is available and the resulting changes in practice. On average, it takes about 13 years for medical practice changes following the development of new evidence. Aspirin for treatment of acute myocardial infarction, lumpectomy instead of mastectomy, antibiotic treatment of peptic ulcer disease, and not treating asymptomatic PVCs are just some of the examples in the recent past that were very slow to change. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;According to the 2013 report from the &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;u&gt;National Bureau of Economic Research&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;, there is a great deal of variability in health care and health outcomes across the United States. Why? According to this report, patient demand for care, which is often cited by medical groups, had little value in explaining the variation. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Instead, the difference lies in the lack of an association between the best available evidence and the provision of care: “Thirty-six percent of end-of-life spending and &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;&lt;i&gt;17% &lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;of U.S. health care spending  are associated with physician &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;&lt;i&gt;beliefs unsupported by clinical evidence&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;.” &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5qMQmTfxXFL.6f3izsLyJYR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;A lot of people thing of EBM as a difficult, boring process, usually thinking back to journal club sessions in which the main goal of most participants is simply to stay awake. Too much of EBM teaching and practice is what I call furrowed brow EBM, conducted once a month. During these sessions everyone works real hard to find problems with a research article, ultimately coming to the conclusion that the article is not any good. Then they go back to their real work and forget about EBM until the next month.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Or, they think of EBM is reading major journals from cover to cover, looking for arcane details. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;This course does not teach furrowed brow EBM. Instead, we will focus on the skills necessary to identify questions and find answers, with the goal of making better decisions for the care of patients. We will focus on practical knowledge and skills using the latest technology and resources to meet this goal. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;We will start with this module and every module with a set of self-assessment questions. These questions will not be graded but will get you started thinking about the topics we are about to cover.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5qMQmTfxXFL.6ggvKKUSxgg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;If you are like many people, you probably thought it was “two.” Where did you get the information to make that snap decision?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;If you had the time (and interest), what would you have done to make sure you had the right answer?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;We have the same problem in medicine. No one has time to appraise all of the available evidence. Instead, we use brief reading and talking to other people as our main sources of information. As a result, most decisions we make are based on what we &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;think&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt; is the evidence, not what we &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;know&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt; is the evidence. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaUedjoJa1.5kEmGB8OPdi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;This idea, in turn, is based on the concept that truth is a &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;i&gt;probability&lt;/i&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt; rather than an absolute in medicine. A treatment may increase the likelihood of certain patients will receive benefit, but we are by no means certain that everyone will benefit. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;i&gt;For example&lt;/i&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;, whenever we study a new treatment, there are various ways that a study could be designed. We might take an epidemiologic approach. Or, we might study the pharmacology of a drug. We might try the treatment on one person and publish a case report, or study a bunch of people in a case series. The credibility of the results depends on the study design.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;You may have learned study design, biases inherent in conducting research, and how to design the “perfect study” (or not). However, in clinical medicine, we can’t wait for publication of a perfect study before making decisions regarding the care of patients. Instead we have to use the results of imperfect studies conducted by humans on humans. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Problems with research findings fall into two categories: Either the information is not valid or it isn’t applicable to the patients you see in your practice. Evaluating information, whether it be from research in the ways we will discuss is not an academic exercise but is designed to answer the central question in medical practice: &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;i&gt;Am I practicing in a way that is most likely to help my patients live longer, better, or both?&lt;/i&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;Our goal is not to decide whether research is “good” or “bad.” Instead, we will be asking whether the evidence we have available to us is &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;i&gt;useful&lt;/i&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;, helping us to &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;meet our goal of improving the lives of people&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;. There is no greater mission in medicine.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaUedjoJa1.5xiA2Bwupii" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;The first four statements are true for fluoxetine (Prozac). No currently available treatment, though, has been shown to be more effective than placebo for treating patients with mild depression.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;The state we hope is true, the last one on the list, is not available to us. As a result, we sometimes rely on statements such as the first four, which represent partial evidence. However, these are not actually relevant to our question, which is, “how to provide effective treatment for this patient?”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaUedjoJa1.5uLtz1UlW9x" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;We can take all of the evidence in medicine and put it into one of two boxes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;The first box is disease-oriented evidence&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;. This is information about the pathology, physiology, pharmacology and the etiology of disease. For example, an effect of a treatment on a blood test or on a risk factor is disease-oriented evidence. These are surrogates rather than the disease. For example, no one ever dies of high blood cholesterol; they die due to the &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;i&gt;effect&lt;/i&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt; of high cholesterol. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;&lt;b&gt;The other type of information we have is patient-oriented evidence&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;. This is information that directly tells us that a medical intervention, something we do for patients, whether that be a diagnostic test or a treatment, affects the morbidity, mortality, or quality of life of an individual. In other words, patient-oriented evidence tells patients that what we are going to do for them, or ask them to do, will make them live longer or live better. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;The distinction between patient-oriented and disease-oriented evidence is crucial, since there are many examples, in the history of medical care, where effects on disease did not translate into improvements in patient-oriented outcomes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="66Xc71oBttM.5VzVn5JtwOP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;This concludes the first module of the introductory unit on introduction to evidence based medicine and information mastery.  As we noted, we have a significant problem with managing information in medicine.  The leading source of medicine used by both patients and clinicians is Google and Wikipedia.  We need to do better, and we need a process that works in the real world.  We talked at length about the concept of relevance, and the importance of the distinction between disease oriented and patient oriented evidence.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='12.5pt' style="font-size:12.5pt;" color='#d0e5f8'&gt;ALLEN: In the next module, we’ll talk more about the decision making process in medicine, we’ll revisit the hierarchy of evidence, and talk about the concept of probability in medicine, and we’ll also introduce an interesting concept called the information mastery traffic light.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Allocation concealment">Making sure the researcher enrolling a patient into a clinical trial are not aware of the intervention group to which the patient will be assigned. A type of blinding. </term>
+      <term title="Background question">General questions regarding a topic such as what is the disorder; what causes it; how does it present; what are some treatment options.  These questions can be answered by using "background" resources such as textbooks (both in print and electronic) and narrative reviews in journals which give a general overview of the topic.</term>
+      <term title="Case finding">Identification of a disease in a patient suspected of having another disease.</term>
+      <term title="Clinical Significance">In most cases, statistical significance is a necessary but not the only requirement for clinical significance. Differences cannot be clinically important if they could have occurred by chance (i.e., the p-value is greater than 0.05 or so). Once statistical significance has been determined, then the reader must determine whether the difference is big enough to be relevant in practice.</term>
+      <term title="Cochrane Collaboration">An international network of more than 28,000 people from over 100 countries The group has produced over 5,000 systematic reviews using a process that is considered the gold standard for systematic review and meta-analysis.</term>
+      <term title="Confidence Interval">A statistic of a statistic. Values calculated in studies (means, etc) are estimates of the “truth.” A confidence interval gives you the range of likely possibilities with a given degree of certainty. A 95% confidence interval tells us that we can be fairly (95%) certain that the true value will fall within this range.
+
+For example, in a study looking at the BP drugs taken by people who died suddenly, beta-blockers were found to increase the risk of sudden death by 40% (relative risk = 1.4). However, the confidence intervals said that the risk could be as high as 3 times those not taking beta-blockers (relative risk = 3.0). The lower end of the confidence interval showed that beta blockers could have decreased the risk of sudden death by 40% (relative risk = 0.6). The confidence interval tells us that we really have no idea if beta-blockers are linked to sudden death.</term>
+      <term title="Foreground question">A question about a specific patient, especially when the answer is not obvious or clear. </term>
+      <term title="Gold Standard">The best single test or combination of tests that is relevant to the particular diagnosis.  Thus, when thinking of exercise tolerance tests as a diagnostic test for coronary artery disease, the gold standard would be angiogram or autopsy.  The gold standard is different for different tests, and may be impossible to obtain except under unusual situations (autopsy, for example).</term>
+      <term title="Meta-analysis">A statistical technique for combining the findings from independent studies. It can be performed following a systematic review, to treat the data from different studies as if they were from one large study, rather than simply counting the studies (“4 studies say it works, 2 studies say it doesn’t, so I guess it works.”)</term>
+      <term title="Negative predictive value">The likelihood that a negative test result actually means that the disease is absent.</term>
+      <term title="Number Needed to Treat (NNT)">The number of patients that need to be treated for one to receive benefit.The NNT also can represent the number of patients that need to be treated to prevent one additional outcome event. It offers an advantage over the relative risk (see below), in that it takes into account the baseline risk as well.</term>
+      <term title="Positive predictive value">The likelihood that a positive test result actually means that the disease is present.</term>
+      <term title="Prognosis">An estimate of the likely course and outcome of a disease.</term>
+      <term title="Publication bias">The likelihood that negative results, i.e., studies that do not show a difference or benefit of a treatment, are less likely to be published.</term>
+      <term title="P-value">“Probability” level. The likelihood that the difference observed between two interventions could have arisen by chance. It does not tell you the importance of the difference. (See clinical vs. statistical significance, below). The usual p value is arbitrarily set at 0.05.
+
+In the phrase, “51.7% of warfarin recipients developed a DVT as compared with 36.9% of enoxaparin recipients (p= 0.003)”, the probability of this difference being due to chance (and not the beneficial effect of enoxaparin over warfarin) is 0.003, or 0.3%. It does not tell us whether a 36.9% incidence represents an important therapeutic gain over the 51.7% reported with warfarin.</term>
+      <term title="Relative Risk">The risk of harm with one drug as compared with another. Conversely, it also can be the risk of benefit with one drug as compared with another. If RR = 1, then there is no difference between the two treatments. </term>
+      <term title="Screening">Look for an unapparent disease in an asymptomatic individual.</term>
+      <term title="Sensitivity">The likelihood that the diagnostic test will indicate the presence of disease when the disease is actually present.</term>
+      <term title="Specificity">The likelihood that the diagnostic disease will indicate the absence of disease when the disease is actually absent.</term>
+      <term title="Statistical Power">The power of a study is the ability for that study to find a difference between two treatments if the difference really exists. Power depends on the number of patients in the study and the magnitude of the difference. A power of 0.80 is the standard. For example, a study of only 30 patients might not find a small difference between two drugs, whereas a study of 300 patients might find a difference.</term>
+      <term title="Summary review">The traditional type of review. They cover the full breadth of a particular topic, typically providing an overview of the disease etiology, diagnosis, prognosis, or management, and will usually address a number of questions. Experts usually write them. Book chapters are summary reviews. This type of review is useful and often fine for background questions.</term>
+      <term title="Synthesis review">Systematic reviews, either with or without meta-analysis. Defining one or two specific questions, writers of systematic reviews carefully find all available evidence, evaluate its validity, and report their answer to the question. This type of review is useful when answering foreground questions.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
